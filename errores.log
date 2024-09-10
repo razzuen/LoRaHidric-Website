@@ -1,0 +1,1979 @@
+2024-09-07 00:30:11 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J74QB4BWDE0SYW23EKHD1Y1G
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:2a6c9d92-c26f-40fc-9f2a-ea266b499c74
+        )
+
+    [received_at] => 2024-09-06T22:30:11.068262632Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAACWmpmRQDMzI0AAAMxAAAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 150
+                    [flujoMaximo] => 4.5500001907349
+                    [flujoMedio] => 2.5499999523163
+                    [litros] => 6.375
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 00:30:11 - Datos insertados correctamente con timestamp
+2024-09-07 03:04:12 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J750558AZSWHN1Y2C2KJ9HF5
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:9cc310b2-544b-4ef4-bdda-4cfc5782e0c3
+        )
+
+    [received_at] => 2024-09-07T01:04:12.553539059Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAA2IexS2QEjhOj+amShCAAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 3464
+                    [flujoMaximo] => 5.6900000572205
+                    [flujoMedio] => 0.73000001907349
+                    [litros] => 42.150001525879
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:04:12 - Datos insertados correctamente con timestamp
+2024-09-07 03:39:37 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J7525ZS0WJ14C089KS5NEENZ
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:becdc5c1-42d6-424d-82b2-965551e89061
+        )
+
+    [received_at] => 2024-09-07T01:39:36.862683309Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAA2IexS2QEjhOj+amShCAAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 3464
+                    [flujoMaximo] => 5.6900000572205
+                    [flujoMedio] => 0.73000001907349
+                    [litros] => 42.150001525879
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:39:37 - Datos insertados correctamente con timestamp
+2024-09-07 03:39:51 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J7526E3V7T0PMAXDTH5N4S62
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:75353c47-35c4-4d2a-8c79-0ac5d9a0c20d
+        )
+
+    [received_at] => 2024-09-07T01:39:51.540814589Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAABL39igMQK5HMUDXI2BDAAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 4855
+                    [flujoMaximo] => 2.1900000572205
+                    [flujoMedio] => 2.7699999809265
+                    [litros] => 224.13999938965
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:39:51 - Datos insertados correctamente con timestamp
+2024-09-07 03:40:01 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J7526QQJEWT4JCE70FRKAPEJ
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:77a4c41f-800a-4114-9749-e33f8beb2f8f
+        )
+
+    [received_at] => 2024-09-07T01:40:01.393584075Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAABKESOE6QAAAmEAAoLtDAAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 4740
+                    [flujoMaximo] => 2.9200000762939
+                    [flujoMedio] => 4.75
+                    [litros] => 375.25
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:40:01 - Datos insertados correctamente con timestamp
+2024-09-07 03:40:10 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J75270J14MQQMAGJ52XH9TDG
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:c258d168-f0d7-4525-9df4-ebf7d58858f2
+        )
+
+    [received_at] => 2024-09-07T01:40:10.431514666Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAABk7FG4QOF6dEAK18tAAAAADA==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 12
+                    [duracionRiego] => 100
+                    [flujoMaximo] => 5.7600002288818
+                    [flujoMedio] => 3.8199999332428
+                    [litros] => 6.3699998855591
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:40:10 - Datos insertados correctamente con timestamp
+2024-09-07 03:40:22 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J7527C7W0HQX78DAWW97ZVEB
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:35da9370-6bd5-4f2d-96ed-513471886855
+        )
+
+    [received_at] => 2024-09-07T01:40:22.396564989Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => RUZTLTA0cAAAAAwmj8KNQI/CtT8zM5NCAAAADA==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 12
+                    [duracionRiego] => 3110
+                    [flujoMaximo] => 4.4299998283386
+                    [flujoMedio] => 1.4199999570847
+                    [litros] => 73.599998474121
+                    [sensorID] => EFS-04p 
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:40:22 - Datos insertados correctamente con timestamp
+2024-09-07 03:40:30 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J7527M4CS7KXK2QNB1R3XHE1
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:24b5794f-0dfd-401a-af5c-e45b553afe83
+        )
+
+    [received_at] => 2024-09-07T01:40:30.475656916Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => RUZTLTA0cAAAAABqKVxvQFK4/j+uR2FAAAAADA==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 12
+                    [duracionRiego] => 106
+                    [flujoMaximo] => 3.7400000095367
+                    [flujoMedio] => 1.9900000095367
+                    [litros] => 3.5199999809265
+                    [sensorID] => EFS-04p 
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:40:30 - Datos insertados correctamente con timestamp
+2024-09-07 03:40:39 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J7527X2S72RJRKXH62N4756T
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:6dd801ea-2fb5-41c7-a4bb-c5e5816f6fd9
+        )
+
+    [received_at] => 2024-09-07T01:40:39.640864412Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAAuj7FGwQClcP0AzcxRDAAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 2979
+                    [flujoMaximo] => 5.5100002288818
+                    [flujoMedio] => 2.9900000095367
+                    [litros] => 148.44999694824
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:40:39 - Datos insertados correctamente con timestamp
+2024-09-07 03:40:49 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J75287027K2S7C3PFB9QSE84
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:936f1a50-7377-49b9-8b2b-87c96c0f96a5
+        )
+
+    [received_at] => 2024-09-07T01:40:49.793683407Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAAlBFK4HPx+FG0BI4b9CAAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 2369
+                    [flujoMaximo] => 0.52999997138977
+                    [flujoMedio] => 2.4300000667572
+                    [litros] => 95.940002441406
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:40:49 - Datos insertados correctamente con timestamp
+2024-09-07 03:41:02 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J7528JS1PFMWE88Z2270NSK7
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:6f7f2a98-e6ff-46bf-99f7-0792d8e7f7cc
+        )
+
+    [received_at] => 2024-09-07T01:41:01.856421797Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => RUZTLTA0cAAAABJp4XrMQEjhej/D9ZlCAAAADA==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 12
+                    [duracionRiego] => 4713
+                    [flujoMaximo] => 6.3899998664856
+                    [flujoMedio] => 0.98000001907349
+                    [litros] => 76.980003356934
+                    [sensorID] => EFS-04p 
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:41:02 - Datos insertados correctamente con timestamp
+2024-09-07 03:41:11 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J7528W4B3A3758X3M0BAFTGZ
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:55ce8ddb-0186-4ecc-8da6-b77f8081eda9
+        )
+
+    [received_at] => 2024-09-07T01:41:11.434507807Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAAwzzcw8QB+Faz9cjz9CAAAADA==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 12
+                    [duracionRiego] => 3123
+                    [flujoMaximo] => 2.9500000476837
+                    [flujoMedio] => 0.9200000166893
+                    [litros] => 47.889999389648
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-07 03:41:11 - Datos insertados correctamente con timestamp
+2024-09-09 02:45:06 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => as:up:01J7A3VKR6GYJNTVYBASTVAT5J
+            [1] => rpc:/ttn.lorawan.v3.AppAs/SimulateUplink:9c9948c5-7581-4e23-884c-5c37bba62caf
+        )
+
+    [received_at] => 2024-09-09T00:45:06.181231954Z
+    [uplink_message] => Array
+        (
+            [f_port] => 3
+            [frm_payload] => RUZTLTA0cAAAAACNH4U7QOF69D8Uro9AAAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 141
+                    [flujoMaximo] => 2.9300000667572
+                    [flujoMedio] => 1.9099999666214
+                    [litros] => 4.4899997711182
+                    [sensorID] => EFS-04p 
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => test
+                                )
+
+                            [rssi] => 42
+                            [channel_rssi] => 42
+                            [snr] => 4.2
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                )
+
+                        )
+
+                    [frequency] => 868000000
+                )
+
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+        )
+
+    [simulated] => 1
+)
+
+2024-09-09 02:45:06 - Datos insertados correctamente con timestamp
+2024-09-10 04:46:25 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+            [dev_addr] => 260B7386
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => gs:uplink:01J7CX6ES81Q0VYW7ZWSA95A39
+        )
+
+    [received_at] => 2024-09-10T02:46:25.012591602Z
+    [uplink_message] => Array
+        (
+            [session_key_id] => AZHZ0fG3aej6vcuGvPLIzA==
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAAAH3+aBPp1LMD6WQ4s8AAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 7
+                    [flujoMaximo] => 0.25371453166008
+                    [flujoMedio] => 0.17216344177723
+                    [litros] => 0.017000000923872
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => eui-58a0cbfffe804354
+                                    [eui] => 58A0CBFFFE804354
+                                )
+
+                            [time] => 2024-09-10T02:46:24.725759029Z
+                            [timestamp] => 562832036
+                            [rssi] => -39
+                            [channel_rssi] => -39
+                            [snr] => 9.75
+                            [uplink_token] => CiIKIAoUZXVpLTU4YTBjYmZmZmU4MDQzNTQSCFigy//+gENUEKTFsIwCGgwIgOb+tgYQ5qGvgQMgoKGd27CBBQ==
+                            [received_at] => 2024-09-10T02:46:24.732113908Z
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 12
+                                    [coding_rate] => 4/5
+                                )
+
+                        )
+
+                    [frequency] => 867100000
+                    [timestamp] => 562832036
+                    [time] => 2024-09-10T02:46:24.725759029Z
+                )
+
+            [received_at] => 2024-09-10T02:46:24.808996428Z
+            [confirmed] => 1
+            [consumed_airtime] => 2.138112s
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+            [version_ids] => Array
+                (
+                    [brand_id] => arduino
+                    [model_id] => mkr-wan-1310
+                    [hardware_version] => 1.0
+                    [firmware_version] => 1.2.0
+                    [band_id] => EU_863_870
+                )
+
+            [network_ids] => Array
+                (
+                    [net_id] => 000013
+                    [ns_id] => EC656E0000000181
+                    [tenant_id] => ttn
+                    [cluster_id] => eu1
+                    [cluster_address] => eu1.cloud.thethings.network
+                )
+
+        )
+
+)
+
+2024-09-10 04:46:25 - Datos insertados correctamente con timestamp
+2024-09-10 04:53:32 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+            [dev_addr] => 260B7386
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => gs:uplink:01J7CXKG2W58HXZ23GA222DDQ4
+        )
+
+    [received_at] => 2024-09-10T02:53:32.334208732Z
+    [uplink_message] => Array
+        (
+            [session_key_id] => AZHZ0fG3aej6vcuGvPLIzA==
+            [f_port] => 3
+            [f_cnt] => 1
+            [frm_payload] => WUYtUzQwMkIAAAACT9rCPZdgoj1vEgM7AAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 2
+                    [flujoMaximo] => 0.09514295309782
+                    [flujoMedio] => 0.07928579300642
+                    [litros] => 0.0020000000949949
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => eui-58a0cbfffe804354
+                                    [eui] => 58A0CBFFFE804354
+                                )
+
+                            [time] => 2024-09-10T02:53:32.043423891Z
+                            [timestamp] => 990173004
+                            [rssi] => -34
+                            [channel_rssi] => -34
+                            [snr] => 11.25
+                            [uplink_token] => CiIKIAoUZXVpLTU4YTBjYmZmZmU4MDQzNTQSCFigy//+gENUEMyuk9gDGgsIrOn+tgYQ6p6TOyDggaTX6I0F
+                            [received_at] => 2024-09-10T02:53:32.073909714Z
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 8
+                                    [coding_rate] => 4/5
+                                )
+
+                        )
+
+                    [frequency] => 868300000
+                    [timestamp] => 990173004
+                    [time] => 2024-09-10T02:53:32.043423891Z
+                )
+
+            [received_at] => 2024-09-10T02:53:32.124895486Z
+            [confirmed] => 1
+            [consumed_airtime] => 0.164352s
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+            [version_ids] => Array
+                (
+                    [brand_id] => arduino
+                    [model_id] => mkr-wan-1310
+                    [hardware_version] => 1.0
+                    [firmware_version] => 1.2.0
+                    [band_id] => EU_863_870
+                )
+
+            [network_ids] => Array
+                (
+                    [net_id] => 000013
+                    [ns_id] => EC656E0000000181
+                    [tenant_id] => ttn
+                    [cluster_id] => eu1
+                    [cluster_address] => eu1.cloud.thethings.network
+                )
+
+        )
+
+)
+
+2024-09-10 04:53:32 - Datos insertados correctamente con timestamp
+2024-09-10 04:55:52 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+            [dev_addr] => 260B7BA4
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => gs:uplink:01J7CXQRTWEPJZPHZAXD9G9DXM
+        )
+
+    [received_at] => 2024-09-10T02:55:52.360644673Z
+    [uplink_message] => Array
+        (
+            [session_key_id] => AZHZ2kP5yAdQbt129kw4sA==
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAAAM3+aBPljEuD30/VQ8AAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 12
+                    [flujoMaximo] => 0.25371453166008
+                    [flujoMedio] => 0.090218245983124
+                    [litros] => 0.013000000268221
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => eui-58a0cbfffe804354
+                                    [eui] => 58A0CBFFFE804354
+                                )
+
+                            [time] => 2024-09-10T02:55:52.079015016Z
+                            [timestamp] => 1130173372
+                            [rssi] => -29
+                            [channel_rssi] => -29
+                            [snr] => 8.25
+                            [uplink_token] => CiIKIAoUZXVpLTU4YTBjYmZmZmU4MDQzNTQSCFigy//+gENUELyn9JoEGgsIuOr+tgYQ56nGSiDgrNSc8pEF
+                            [received_at] => 2024-09-10T02:55:52.096289053Z
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 12
+                                    [coding_rate] => 4/5
+                                )
+
+                        )
+
+                    [frequency] => 867700000
+                    [timestamp] => 1130173372
+                    [time] => 2024-09-10T02:55:52.079015016Z
+                )
+
+            [received_at] => 2024-09-10T02:55:52.157294148Z
+            [confirmed] => 1
+            [consumed_airtime] => 2.138112s
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+            [version_ids] => Array
+                (
+                    [brand_id] => arduino
+                    [model_id] => mkr-wan-1310
+                    [hardware_version] => 1.0
+                    [firmware_version] => 1.2.0
+                    [band_id] => EU_863_870
+                )
+
+            [network_ids] => Array
+                (
+                    [net_id] => 000013
+                    [ns_id] => EC656E0000000181
+                    [tenant_id] => ttn
+                    [cluster_id] => eu1
+                    [cluster_address] => eu1.cloud.thethings.network
+                )
+
+        )
+
+)
+
+2024-09-10 04:55:52 - Datos insertados correctamente con timestamp
+2024-09-10 05:54:15 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+            [dev_addr] => 260B70DE
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => gs:uplink:01J7D12NHM62CAHGNQ76T0MGJF
+        )
+
+    [received_at] => 2024-09-10T03:54:15.168750953Z
+    [uplink_message] => Array
+        (
+            [session_key_id] => AZHaEKzuMPS3GZQ7Zdvjww==
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAAAB3+YBPd/mAT0AAAAAAAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 1
+                    [flujoMaximo] => 0.03171431645751
+                    [flujoMedio] => 0.03171431645751
+                    [litros] => 0
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => eui-58a0cbfffe804354
+                                    [eui] => 58A0CBFFFE804354
+                                )
+
+                            [time] => 2024-09-10T03:54:14.855161905Z
+                            [timestamp] => 337996620
+                            [rssi] => -29
+                            [channel_rssi] => -29
+                            [snr] => 7
+                            [uplink_token] => CiIKIAoUZXVpLTU4YTBjYmZmZmU4MDQzNTQSCFigy//+gENUEMzWlaEBGgwI5oX/tgYQz/beywMg4MGskev3BQ==
+                            [received_at] => 2024-09-10T03:54:14.908400536Z
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 12
+                                    [coding_rate] => 4/5
+                                )
+
+                        )
+
+                    [frequency] => 867500000
+                    [timestamp] => 337996620
+                    [time] => 2024-09-10T03:54:14.855161905Z
+                )
+
+            [received_at] => 2024-09-10T03:54:14.965632889Z
+            [confirmed] => 1
+            [consumed_airtime] => 2.138112s
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+            [version_ids] => Array
+                (
+                    [brand_id] => arduino
+                    [model_id] => mkr-wan-1310
+                    [hardware_version] => 1.0
+                    [firmware_version] => 1.2.0
+                    [band_id] => EU_863_870
+                )
+
+            [network_ids] => Array
+                (
+                    [net_id] => 000013
+                    [ns_id] => EC656E0000000181
+                    [tenant_id] => ttn
+                    [cluster_id] => eu1
+                    [cluster_address] => eu1.cloud.thethings.network
+                )
+
+        )
+
+)
+
+2024-09-10 05:54:15 - Datos insertados correctamente con timestamp
+2024-09-10 05:57:42 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+            [dev_addr] => 260B70DE
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => gs:uplink:01J7D18ZZ69QG6DYTV8VF3ZDW7
+        )
+
+    [received_at] => 2024-09-10T03:57:42.455722934Z
+    [uplink_message] => Array
+        (
+            [session_key_id] => AZHaEKzuMPS3GZQ7Zdvjww==
+            [f_port] => 3
+            [f_cnt] => 1
+            [frm_payload] => WUYtUzQwMkIAAAANl2AiP2pliT7NzEw9AAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 13
+                    [flujoMaximo] => 0.63428634405136
+                    [flujoMedio] => 0.26835185289383
+                    [litros] => 0.050000000745058
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => eui-58a0cbfffe804354
+                                    [eui] => 58A0CBFFFE804354
+                                )
+
+                            [time] => 2024-09-10T03:57:42.112059116Z
+                            [timestamp] => 545268156
+                            [rssi] => -47
+                            [channel_rssi] => -47
+                            [snr] => 12.25
+                            [uplink_token] => CiIKIAoUZXVpLTU4YTBjYmZmZmU4MDQzNTQSCFigy//+gENUELzDgIQCGgsItof/tgYQ556zdSDgjI+k7/0F
+                            [received_at] => 2024-09-10T03:57:42.165044366Z
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 9
+                                    [coding_rate] => 4/5
+                                )
+
+                        )
+
+                    [frequency] => 868300000
+                    [timestamp] => 545268156
+                    [time] => 2024-09-10T03:57:42.112059116Z
+                )
+
+            [received_at] => 2024-09-10T03:57:42.247833247Z
+            [confirmed] => 1
+            [consumed_airtime] => 0.287744s
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+            [version_ids] => Array
+                (
+                    [brand_id] => arduino
+                    [model_id] => mkr-wan-1310
+                    [hardware_version] => 1.0
+                    [firmware_version] => 1.2.0
+                    [band_id] => EU_863_870
+                )
+
+            [network_ids] => Array
+                (
+                    [net_id] => 000013
+                    [ns_id] => EC656E0000000181
+                    [tenant_id] => ttn
+                    [cluster_id] => eu1
+                    [cluster_address] => eu1.cloud.thethings.network
+                )
+
+        )
+
+)
+
+2024-09-10 05:57:42 - Datos insertados correctamente con timestamp
+2024-09-10 05:58:39 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+            [dev_addr] => 260B70DE
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => gs:uplink:01J7D1AQDGT9VA4CC43HZMHNSD
+        )
+
+    [received_at] => 2024-09-10T03:58:39.230955380Z
+    [uplink_message] => Array
+        (
+            [session_key_id] => AZHaEKzuMPS3GZQ7Zdvjww==
+            [f_port] => 3
+            [f_cnt] => 2
+            [frm_payload] => WUYtUzQwMkIAAAAB3+YBPd/mAT0AAAAAAAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 1
+                    [flujoMaximo] => 0.03171431645751
+                    [flujoMedio] => 0.03171431645751
+                    [litros] => 0
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => eui-58a0cbfffe804354
+                                    [eui] => 58A0CBFFFE804354
+                                )
+
+                            [time] => 2024-09-10T03:58:38.946574926Z
+                            [timestamp] => 602099011
+                            [rssi] => -35
+                            [channel_rssi] => -35
+                            [snr] => 9
+                            [uplink_token] => CiIKIAoUZXVpLTU4YTBjYmZmZmU4MDQzNTQSCFigy//+gENUEMOajZ8CGgsI74f/tgYQl+e+CyC4m5f/wv8F
+                            [received_at] => 2024-09-10T03:58:38.942935742Z
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 7
+                                    [coding_rate] => 4/5
+                                )
+
+                        )
+
+                    [frequency] => 868100000
+                    [timestamp] => 602099011
+                    [time] => 2024-09-10T03:58:38.946574926Z
+                )
+
+            [received_at] => 2024-09-10T03:58:39.024853878Z
+            [confirmed] => 1
+            [consumed_airtime] => 0.087296s
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+            [version_ids] => Array
+                (
+                    [brand_id] => arduino
+                    [model_id] => mkr-wan-1310
+                    [hardware_version] => 1.0
+                    [firmware_version] => 1.2.0
+                    [band_id] => EU_863_870
+                )
+
+            [network_ids] => Array
+                (
+                    [net_id] => 000013
+                    [ns_id] => EC656E0000000181
+                    [tenant_id] => ttn
+                    [cluster_id] => eu1
+                    [cluster_address] => eu1.cloud.thethings.network
+                )
+
+        )
+
+)
+
+2024-09-10 05:58:39 - Datos insertados correctamente con timestamp
+2024-09-10 06:02:18 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+            [dev_addr] => 260B475D
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => gs:uplink:01J7D1HDEMCG35JY6JJ1CPVHC9
+        )
+
+    [received_at] => 2024-09-10T04:02:18.402360142Z
+    [uplink_message] => Array
+        (
+            [session_key_id] => AZHaF2i6qvxjoBorTQ028A==
+            [f_port] => 3
+            [frm_payload] => WUYtUzQwMkIAAAAHvfjKP8LjWD+mm8Q9AAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 7
+                    [flujoMaximo] => 1.5857158899307
+                    [flujoMedio] => 0.84722530841827
+                    [litros] => 0.096000000834465
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => eui-58a0cbfffe804354
+                                    [eui] => 58A0CBFFFE804354
+                                )
+
+                            [time] => 2024-09-10T04:02:18.117919921Z
+                            [timestamp] => 821254628
+                            [rssi] => -30
+                            [channel_rssi] => -30
+                            [snr] => 9.75
+                            [uplink_token] => CiIKIAoUZXVpLTU4YTBjYmZmZmU4MDQzNTQSCFigy//+gENUEOSzzYcDGgsIyon/tgYQwc2wXSCgxdy084UG
+                            [received_at] => 2024-09-10T04:02:18.112228911Z
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 12
+                                    [coding_rate] => 4/5
+                                )
+
+                        )
+
+                    [frequency] => 868300000
+                    [timestamp] => 821254628
+                    [time] => 2024-09-10T04:02:18.117919921Z
+                )
+
+            [received_at] => 2024-09-10T04:02:18.196639868Z
+            [confirmed] => 1
+            [consumed_airtime] => 2.138112s
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+            [version_ids] => Array
+                (
+                    [brand_id] => arduino
+                    [model_id] => mkr-wan-1310
+                    [hardware_version] => 1.0
+                    [firmware_version] => 1.2.0
+                    [band_id] => EU_863_870
+                )
+
+            [network_ids] => Array
+                (
+                    [net_id] => 000013
+                    [ns_id] => EC656E0000000181
+                    [tenant_id] => ttn
+                    [cluster_id] => eu1
+                    [cluster_address] => eu1.cloud.thethings.network
+                )
+
+        )
+
+)
+
+2024-09-10 06:02:18 - Datos insertados correctamente con timestamp
+2024-09-10 06:07:04 - Payload received: Array
+(
+    [end_device_ids] => Array
+        (
+            [device_id] => mkr1310
+            [application_ids] => Array
+                (
+                    [application_id] => ard-lora-jmm
+                )
+
+            [dev_eui] => A8610A343638820F
+            [join_eui] => 0101010101010101
+            [dev_addr] => 260B475D
+        )
+
+    [correlation_ids] => Array
+        (
+            [0] => gs:uplink:01J7D1T4TKH0GAA0MJH33ESBJY
+        )
+
+    [received_at] => 2024-09-10T04:07:04.483837075Z
+    [uplink_message] => Array
+        (
+            [session_key_id] => AZHaF2i6qvxjoBorTQ028A==
+            [f_port] => 3
+            [f_cnt] => 1
+            [frm_payload] => WUYtUzQwMkIAAAAD3+aBPkQn7j0K16M7AAAADw==
+            [decoded_payload] => Array
+                (
+                    [deviceID] => 15
+                    [duracionRiego] => 3
+                    [flujoMaximo] => 0.25371453166008
+                    [flujoMedio] => 0.11628583073616
+                    [litros] => 0.0049999998882413
+                    [sensorID] => YF-S402B
+                )
+
+            [rx_metadata] => Array
+                (
+                    [0] => Array
+                        (
+                            [gateway_ids] => Array
+                                (
+                                    [gateway_id] => eui-58a0cbfffe804354
+                                    [eui] => 58A0CBFFFE804354
+                                )
+
+                            [time] => 2024-09-10T04:07:04.202390909Z
+                            [timestamp] => 1107361060
+                            [rssi] => -35
+                            [channel_rssi] => -35
+                            [snr] => 11
+                            [uplink_token] => CiIKIAoUZXVpLTU4YTBjYmZmZmU4MDQzNTQSCFigy//+gENUEKT6g5AEGgwI6Iv/tgYQuem3gwEgoKnznp2OBg==
+                            [received_at] => 2024-09-10T04:07:04.192038951Z
+                        )
+
+                )
+
+            [settings] => Array
+                (
+                    [data_rate] => Array
+                        (
+                            [lora] => Array
+                                (
+                                    [bandwidth] => 125000
+                                    [spreading_factor] => 8
+                                    [coding_rate] => 4/5
+                                )
+
+                        )
+
+                    [frequency] => 867700000
+                    [timestamp] => 1107361060
+                    [time] => 2024-09-10T04:07:04.202390909Z
+                )
+
+            [received_at] => 2024-09-10T04:07:04.276628608Z
+            [confirmed] => 1
+            [consumed_airtime] => 0.164352s
+            [locations] => Array
+                (
+                    [user] => Array
+                        (
+                            [latitude] => 37.870977736159
+                            [longitude] => -4.7775077819824
+                            [source] => SOURCE_REGISTRY
+                        )
+
+                )
+
+            [version_ids] => Array
+                (
+                    [brand_id] => arduino
+                    [model_id] => mkr-wan-1310
+                    [hardware_version] => 1.0
+                    [firmware_version] => 1.2.0
+                    [band_id] => EU_863_870
+                )
+
+            [network_ids] => Array
+                (
+                    [net_id] => 000013
+                    [ns_id] => EC656E0000000181
+                    [tenant_id] => ttn
+                    [cluster_id] => eu1
+                    [cluster_address] => eu1.cloud.thethings.network
+                )
+
+        )
+
+)
+
+2024-09-10 06:07:04 - Datos insertados correctamente con timestamp

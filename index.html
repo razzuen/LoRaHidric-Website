@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IoT Services - Log in</title>
+    <!-- Cargar la fuente desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS Local -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: url('img/textura_fondo.jpg') no-repeat center center fixed;
+    		background-size: cover; 
+			display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 95vh;
+            flex-direction: column;
+        }
+
+        .logo-container {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: radial-gradient(circle at center, #6F89A3, #8DA1B9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-container img {
+            width: 70%;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 0;
+        }
+
+        .form-signin {
+            width: 100%;
+            max-width: 380px;
+            padding: 15px;
+            margin: 10px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-control:focus {
+            border-color: #30667A;
+            box-shadow: 0 0 0 0.2rem rgba(48, 102, 122, 0.25);
+        }
+
+        .form-floating>.form-control:focus~label {
+            color: #30667A;
+        }
+		
+		/* Alinear checkbox y "Recuérdame" horizontalmente y centrarlos en el formulario */
+		.form-check {
+			display: flex;
+			align-items: center; /* Centrar verticalmente */
+			justify-content: center; /* Centrar horizontalmente */
+		}
+
+		.form-check-input {
+			margin-right: 5px; /* Espacio entre el checkbox y el texto */
+			transform: translateY(-1.5px); /* Ajuste fino para centrar verticalmente */
+		}
+
+		/* Opcional: para ajustar el tamaño del checkbox y el texto si es necesario */
+		.form-check-label {
+			margin-bottom: 0; /* Elimina cualquier margen inferior para evitar desplazamiento */
+		}
+
+        .btn-login,
+        .btn-signup {
+            background-color: #30667A;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 20px;
+            color: white;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            margin-bottom: 10px;
+            margin-left: 40px;
+            margin-right: 40px;
+            display: inline-block;
+        }
+
+        .btn-login:hover,
+        .btn-signup:hover {
+            background-color: #1a1a1a;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Estilo para la marca de copyright */
+        .footer-text {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-size: 0.8rem;
+            color: #8DA1B9;
+            font-weight: 400; /* Sin negrita */
+        }
+		
+    </style>
+</head>
+
+<body>
+    <div class="logo-container">
+        <img src="/img/logo.png" alt="IoT Services Logo">
+    </div>
+    <div class="header">
+        <h1>MoonLight <br>IoT Services</h1>
+    </div>
+
+    <main class="form-signin">
+		<form action="login.php" method="POST">
+			<div class="form-floating mb-3">
+				<input type="text" class="form-control" id="floatingInput" name="username" placeholder="Usuario" required>
+				<label for="floatingInput">Usuario</label>
+			</div>
+			<div class="form-floating mb-3">
+				<input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password" required>
+				<label for="floatingPassword">Contraseña</label>
+			</div>
+
+			<div class="btn-container">
+				<button class="btn btn-login" type="submit">Log in</button>
+				<button class="btn btn-signup" type="button" onclick="window.location.href='registro.html'">Sign up</button>
+			</div>
+		</form>
+	</main>
+
+    <div class="footer-text">
+        © 2024 MoonLight IoT Services - Created and designed by Jesús Martínez
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
